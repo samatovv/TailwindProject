@@ -1,0 +1,22 @@
+<svg width="168.000000" height="163.000000" viewBox="0 0 168 163" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_85_92_dd" x="0.000000" y="0.000000" width="168.000000" height="163.000000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="4"/>
+			<feGaussianBlur stdDeviation="12.6667"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.27059 0 0 0 0 0.51373 0 0 0 1 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+	</defs>
+	<g filter="url(#filter_85_92_dd)">
+		<path id="Rectangle 65" d="M38 77.5C38 53.47 57.47 34 81.5 34L130 34L130 121L81.5 121C57.47 121 38 101.52 38 77.5L38 77.5Z" fill="#004583" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Rectangle 65" d="M81.5 34C57.47 34 38 53.47 38 77.5C38 101.52 57.47 121 81.5 121L130 121L130 34L81.5 34ZM129 35L81.5 35Q72.69 35 65.18 38.11Q57.67 41.22 51.44 47.44Q45.22 53.67 42.11 61.18Q39 68.69 39 77.5Q39 86.3 42.11 93.81Q45.22 101.32 51.44 107.55Q57.67 113.77 65.18 116.88Q72.69 120 81.5 120L129 120L129 35Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+	<path id="Vector" d="M85.84 72.61L89.8 72.61L89.8 66.76L95.76 66.76L95.76 62.85L89.8 62.85L89.8 57L85.84 57L85.84 62.85L79.88 62.85L79.88 66.76L85.84 66.76L85.84 72.61ZM77.9 90.19C75.72 90.19 73.95 91.94 73.95 94.09C73.95 96.24 75.72 98 77.9 98C80.08 98 81.87 96.24 81.87 94.09C81.87 91.94 80.08 90.19 77.9 90.19ZM97.74 90.19C95.56 90.19 93.79 91.94 93.79 94.09C93.79 96.24 95.56 98 97.74 98C99.92 98 101.71 96.24 101.71 94.09C101.71 91.94 99.92 90.19 97.74 90.19ZM78.24 83.84L78.3 83.61L80.08 80.42L94.86 80.42C96.35 80.42 97.66 79.62 98.34 78.41L106 64.73L102.54 62.85L102.52 62.85L100.34 66.76L94.86 76.52L80.94 76.52L80.68 75.99L76.23 66.76L74.35 62.85L72.48 58.95L66 58.95L66 62.85L69.96 62.85L77.11 77.67L74.43 82.45C74.11 83 73.93 83.65 73.93 84.33C73.93 86.48 75.72 88.23 77.9 88.23L101.71 88.23L101.71 84.33L78.73 84.33C78.48 84.33 78.24 84.11 78.24 83.84Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+</svg>
