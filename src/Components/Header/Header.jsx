@@ -62,7 +62,7 @@ function Header() {
                             <div className='fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-75'>
                                 <div className='bg-white rounded-lg p-6 w-80 h-96'>
 
-                                    <div className='flex space-around items-center '>
+                                    <div className='flex space-between items-center '>
                                         <div className='flex'>
                                             <img className='w-[12px]  h-[12px] mr-[5px]' src={compas} alt="img" />
                                             <a className='text-blue-700 font-inter text-xs font-normal leading-[127.47%] tracking-tighter tracking-tighter underline'>Наши салоны</a>
@@ -70,7 +70,7 @@ function Header() {
                                         <div className=' w-[93px] h-[46px]'>
                                             <img src={Logo} alt="img" />
                                         </div>
-                                        <img className="absolute top-0 right-0 cursor-pointer w-6 h-6 p-1 " src={x} onClick={closeModal} />
+                                        <img className=" top-0 right-0 cursor-pointer w-6 h-6 p-1 " src={x} onClick={closeModal} />
                                     </div>
 
                                     <div className=''>
@@ -127,7 +127,7 @@ function Header() {
                     <img src={input} alt="img" />
                 </div>
             </div>
-            <div className='flex md:hidden cursor-pointer w-[100%] justify-between'>
+            <div className='flex md:hidden cursor-pointer w-[100%] justify-between mt-[100px]'>
                 <div>
                     <form className="w-[160px] h-[49px] mx-auto">
                         <select id="countries" className="text-sm block p-2.5 w-full h-full dark:bg-red-700 dark:placeholder-red-400 dark:text-white">

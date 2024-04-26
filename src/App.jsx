@@ -1,13 +1,18 @@
+
 import './App.css'
 
 import Header from "./Components/Header/Header"
+import Carousel from './Components/Carousel/Carousel'
+import Product from "./Components/Products/Product"
+
+
 function App() {
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-        <Header/>
-      </h1>
+      <Header />
+      <Carousel />
+      <Product />
     </>
   )
 }
