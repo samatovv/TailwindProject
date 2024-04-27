@@ -1,5 +1,4 @@
 
-import React from 'react';
 
 import Footer1 from "../../assets/IMGS/svg/footer_img.svg"
 import Footer2 from "../../assets/IMGS/svg/footer_img2.svg"

@@ -1,4 +1,3 @@
-import React from 'react';
 import {DefaultPlayer as Video} from 'react-html5video'
 
 function Banner() {
