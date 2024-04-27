@@ -1,4 +1,3 @@
-
 import imageCaro from '../../assets/Abdurahman/image/imageCaro.png'
 import svg1 from '../../assets/Abdurahman/svg/svg1.svg'
 import svg2 from '../../assets/Abdurahman/svg/svg2.svg'
@@ -38,12 +37,15 @@ function Carousel() {
               <div>
                 <p className="text-white font-gilroy xl:text-xl sm: text-[10px] font-semibold leading-[127.47%] tracking-tighter text-left uppercase" >Официально</p>
                 <p className="text-white font-inter xl:text-xs sm: text-[7px] font-normal leading-[127.47%] tracking-tighter text-left">Производственная площадь.</p>
+
               </div>
             </div>
           </div>
         </div>
+
       </div>
   </>
   )
 }
 export default Carousel
+
