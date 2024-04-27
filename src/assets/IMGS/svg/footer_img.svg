@@ -1,0 +1,12 @@
+<svg width="88.000000" height="31.000000" viewBox="0 0 88 31" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<pattern id="pattern_20_1270" patternContentUnits="objectBoundingBox" width="1.000000" height="1.000000">
+			<use xlink:href="#image20_127_0" transform="matrix(0.011364,0,0,0.032258,0,0)"/>
+		</pattern>
+		<image id="image20_127_0" width="88.000000" height="31.000000" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFgAAAAfCAYAAABjyArgAAAABHNCSVQICAgIfAhkiAAAAT5JREFUaIHtmtERhCAMROONtViJFVioFViJzdz9HDccBlyCUdC8L5UJZNYYF8eOiN5kqPG6OoG707uDeVmvzON2TONARFbB6pjAyvTcRVfeUs5sN1yu4frTOERzSsWHcf45si5RROCW4MTkjtE5cooLKaTmBU4Jkqo2dI6cseIKrtVplOYVq+DU05Ea88kSONXLriRWSVy74PKXvHPQmI6+O7mcPlSjyLUB++Cj7vhTgXywiSwH7sHzsm5ErbUnOyQeGfW6Kj64NZHRN700XsUHtyQyKmg1PtifqBWR93LKqVJ1Hxwu3ILIksc6FouO+ez64L2E0Gb/NA77HhyKaeL+c8j3YCeqibuF7cESoVoVtyof/DSkDsPHBCb5th+Je7zAJbs9q2BlkJvB+mCjHPsv4iRMYGV+LcLQwSpYmQ+Zy9FFl7J5EwAAAABJRU5ErkJggg=="/>
+	</defs>
+	<rect id="image 1" width="88.000000" height="31.000000" fill="url(#pattern_20_1270)" fill-opacity="1.000000"/>
+</svg>
