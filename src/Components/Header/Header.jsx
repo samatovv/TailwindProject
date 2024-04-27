@@ -1,27 +1,28 @@
 import React from 'react';
 import { useState } from 'react';
-
+import { Link } from 'react-router-dom';
 import Logo from "../../assets/IMGS/png/Logo.png"
 import oclock from "../../assets/IMGS/svg/oclock.svg"
 import compas from "../../assets/IMGS/svg/compas.svg"
 import phone from "../../assets/IMGS/svg/phone.svg"
 import input from "../../assets/IMGS/svg/input.svg"
 import x from "../../assets/IMGS/svg/x.svg"
+import Banner from "../../Components/Banner/Banner"
 function Header() {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
     const openModal = () => {
         setIsModalOpen(true);
     };
-
     const closeModal = () => {
         setIsModalOpen(false);
     };
     return (
+
         <div className='mx-auto w-1440px h-152px'>
             <div className='flex  items-center justify-around'>
                 <div className=''>
-                    <div className='xl:block sm: hidden md:block flex font-inter text-base font-normal leading-[127.47%] tracking-tighter text-right'>
+                    <div className=' sm:hidden  flex font-inter text-base font-normal leading-[127.47%] tracking-tighter text-right'>
                         <img src={oclock} alt="img" />
                         <p>Пн-Пт с 10:00 до 20:00<br />
                             Сб-Вс с 10:00 до 19:00</p>
@@ -33,7 +34,9 @@ function Header() {
                 </div>
 
                 <div className=' w-185 h-92px'>
-                    <img src={Logo} alt="img" />
+                    <Link to="/">
+                        <img src={Logo} alt="img" />
+                    </Link>
                 </div>
                 <div className=' xl:block sm: hidden md:block'>
                     <div className='flex font-inter text-base font-normal leading-[127.47%] tracking-tighter text-right gap-2'>
@@ -49,6 +52,7 @@ function Header() {
                             Бесплатно</p>
                     </div>
                 </div>
+
                 <div className='space-y-1 md:hidden cursor-pointer  '>
                     <div className='items-start max-w-screen-lg px-4 '>
                         <div className='flex items-start justify-between'>
@@ -61,7 +65,6 @@ function Header() {
                         {isModalOpen && (
                             <div className='fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-75'>
                                 <div className='bg-white rounded-lg p-6 w-80 h-96'>
-
                                     <div className='flex space-between items-center '>
                                         <div className='flex'>
                                             <img className='w-[12px]  h-[12px] mr-[5px]' src={compas} alt="img" />
@@ -105,22 +108,23 @@ function Header() {
                     </div>
                 </div>
             </div>
+
             <div className=' w-1440px border border-solid border-gray-300 mt-5 mb-5'></div>
-            <div className='hidden md:flex items-center justify-around font-inter text-base font-bold leading-[127.47%] tracking-tighter text-left list-none"'>
+            <div className='hidden mb-6 md:flex items-center justify-around font-inter text-base font-bold leading-[127.47%] tracking-tighter text-left  list-none'>
                 <li className='hover:text-gray-500'>
-                    <a href="#">Каталог</a>
+                    <Link to="katalog">Каталог</Link>
                 </li>
                 <li className='hover:text-gray-500'>
-                    <a href="#">О нас</a>
+                    <Link to="onas">О нас</Link>
                 </li>
                 <li className='hover:text-gray-500'>
-                    <a href="#">3D-моделирование</a>
+                    <Link to="model">3D-моделирование</Link>
                 </li>
                 <li className='hover:text-gray-500'>
-                    <a href="#">Покупателю</a>
+                    <Link to="pokupatel">Покупателю</Link>
                 </li>
                 <li className='hover:text-gray-500'>
-                    <a href="#">Доставка и оплата</a>
+                    <Link to="dostavka">Доставка и оплата</Link>
                 </li>
                 <div className='flex border-box border border-solid border-blue-700 rounded-full w-330 h-35 pl-2'>
                     <input type="text" placeholder="Поиск по сайту..." />
@@ -144,6 +148,7 @@ function Header() {
                     <img className="bg-white w-13[px] h-[13px]" src={input} alt="img" />
                 </div>
             </div>
+            <Banner/>
         </div >
     );
 }

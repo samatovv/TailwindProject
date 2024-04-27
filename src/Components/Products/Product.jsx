@@ -8,8 +8,8 @@ import product5 from "../../assets/IMGS/png/product5.png"
 import go from "../../assets/IMGS/svg/goto.svg"
 function Product() {
     return (
-        <div className='flex flex-wrap'>
-            <div className='flex'>
+        <div className='flex flex-wrap '>
+            <div className='flex '>
                 <img className='lg:w-[360px] lg:h-[321px] md:w-[280px] md:h-[277px] sm:w-[160px] sm:h-[157px]' src={product1} alt="img" />
                 <div className='lg:w-[360px] lg:h-[321px] md:w-[280px] md:h-[277px] sm:w-[160px] sm:h-[157px] flex items-center flex-col gap-2'>
                     <h1 className='text-custom font-gilroy text-24 font-bold leading-custom tracking-tighter text-left uppercase'>Гостиные</h1><br />
