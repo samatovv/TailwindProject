@@ -7,6 +7,7 @@ import phone from "../../assets/IMGS/svg/phone.svg"
 import input from "../../assets/IMGS/svg/input.svg"
 import x from "../../assets/IMGS/svg/x.svg"
 import Banner from "../../Components/Banner/Banner"
+import { Container } from '../helpers/Container';
 function Header() {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -17,8 +18,9 @@ function Header() {
         setIsModalOpen(false);
     };
     return (
-
-        <div className='mx-auto w-1440px h-152px'>
+        <>
+            <Container>
+            <div className='mx-auto w-1440px h-152px'>
             <div className='flex  items-center justify-around'>
                 <div className=''>
                     <div className=' sm:hidden  flex font-inter text-base font-normal leading-[127.47%] tracking-tighter text-right'>
@@ -110,9 +112,19 @@ function Header() {
 
             <div className=' w-1440px border border-solid border-gray-300 mt-5 mb-5'></div>
             <div className='hidden mb-6 md:flex items-center justify-around font-inter text-base font-bold leading-[127.47%] tracking-tighter text-left  list-none'>
-                <li className='hover:text-gray-500'>
-                    <Link to="katalog">Каталог</Link>
-                </li>
+                {/* <li className='hover:text-gray-500'> */}
+                    <div>
+                        <form className="w-[160px] h-[49px] mx-auto">
+                            <select id="countries" className="sm:hidden text-black">
+                                <option value="liu">Каталог</option>
+                                <option value="liu">Новинки</option>
+                                <option value="US">Гостинные</option>
+                                <option value="CA">Прихожие</option>
+                                <option value="FR">Спальни</option>
+                            </select>
+                        </form>
+                    </div>
+                {/* </li> */}
                 <li className='hover:text-gray-500'>
                     <Link to="onas">О нас</Link>
                 </li>
@@ -149,6 +161,9 @@ function Header() {
             </div>
             <Banner/>
         </div >
+            </Container>
+        </>
+    
     );
 }
 export default Header;
