@@ -3,10 +3,12 @@ import svg1 from '../../assets/Abdurahman/svg/svg1.svg'
 import svg2 from '../../assets/Abdurahman/svg/svg2.svg'
 import svg3 from '../../assets/Abdurahman/svg/svg3.svg'
 import cart from '../../assets/Abdurahman/svg/cart.svg'
+import { Container } from '../helpers/Container'
 
 function Carousel() {
   return (
     <>
+    <Container>
       <div
 
         className="bg-cover bg-center h-screen lg:w-screen lg:h-[469px] relative mx-auto sm: w-screen sm: h-[320px] md: h-[420px] md: w-screen sm: p-4"
@@ -44,6 +46,7 @@ function Carousel() {
         </div>
 
       </div>
+      </Container>
   </>
   )
 }
