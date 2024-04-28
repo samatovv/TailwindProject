@@ -6,7 +6,6 @@ import compas from "../../assets/IMGS/svg/compas.svg"
 import phone from "../../assets/IMGS/svg/phone.svg"
 import input from "../../assets/IMGS/svg/input.svg"
 import x from "../../assets/IMGS/svg/x.svg"
-import Banner from "../../Components/Banner/Banner"
 import { Container } from '../helpers/Container';
 function Header() {
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -159,7 +158,6 @@ function Header() {
                     <img className="bg-white w-13[px] h-[13px]" src={input} alt="img" />
                 </div>
             </div>
-            <Banner/>
         </div >
             </Container>
         </>
