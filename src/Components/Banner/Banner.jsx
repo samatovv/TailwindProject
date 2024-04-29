@@ -1,8 +1,8 @@
 import { DefaultPlayer as Video } from 'react-html5video';
-import 'react-html5video/dist/styles.css';
 
-import { Container } from "../helpers/Container"
+import 'react-html5video/dist/styles.css';
 import video from "../../assets/Videos/video.mp4"
+import { Container } from "../helpers/Container";
 function Banner() {
   return (
     <Container>

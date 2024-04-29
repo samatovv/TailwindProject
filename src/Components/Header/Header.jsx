@@ -7,6 +7,7 @@ import phone from "../../assets/IMGS/svg/phone.svg"
 import input from "../../assets/IMGS/svg/input.svg"
 import x from "../../assets/IMGS/svg/x.svg"
 import { Container } from '../helpers/Container';
+import Options from '../Header/Options'
 function Header() {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -115,16 +116,11 @@ function Header() {
                     <div className='hidden mb-6 md:flex items-center justify-around font-inter text-base font-bold leading-[127.47%] tracking-tighter text-left  list-none'>
                     <div className="">
                                 <form className="lg:[w-90px] xl:w-[100px]">
-                                    <select id="countries" className="text-sm block p-2.5 w-full h-full  text-red dark:text-red-500 outline-none">
-                                        <option value="liu">Каталог</option>
-                                        <option value="liu">Новинки</option>
-                                        <option value="US">Гостинные</option>
-                                        <option value="CA">Прихожие</option>
-                                    </select>
+                                    <Options/>
                                 </form>
                             </div>
                         <li className='hover:text-gray-500'>
-                            <Link to="onas">О нас</Link>
+                            <Link to="/">О нас</Link>
                         </li>
                         <li className='hover:text-gray-500'>
                             <Link to="model">3D-моделирование</Link>
@@ -142,14 +138,8 @@ function Header() {
                     </div>
                     <div className='flex lg:hidden md:hidden cursor-pointer w-full justify-between mt-8  bg-blue-700'>
                         <div className="w-1/2">
-                            <form className="w-full">
-                                <select id="countries" className="text-sm block p-2.5 w-full h-full dark:bg-red-700 dark:placeholder-red-400 dark:text-white">
-                                    <option value="liu">Каталог</option>
-                                    <option value="liu">Новинки</option>
-                                    <option value="US">Гостинные</option>
-                                    <option value="CA">Прихожие</option>
-                                    <Link to="/bedroom" className="text-sm block mt-2">Спальни</Link>
-                                </select>
+                            <form className="bg-red-500 text-white ">
+                                <Options/>
                             </form>
                         </div>
                         <div className="w-1/2 flex items-center">
