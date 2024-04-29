@@ -29,7 +29,7 @@ export const router = createBrowserRouter([{
         },
         {
             path: "/model",
-            element: <ModelPage />
+            element: <ModelPage/>
         },
         {
             path: "/onas",
