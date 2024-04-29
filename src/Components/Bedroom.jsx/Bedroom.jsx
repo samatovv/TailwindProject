@@ -1,10 +1,10 @@
-
-function Bedroom() {
+import { Container } from "../helpers/Container";
+export default function Bedroom() {
   return (
-    <div>
-      Bedroom
-    </div>
+    <Container>
+      <div className="bedroom-container">
+        Bedroom
+      </div>
+    </Container>
   );
 }
-
-export default Bedroom;
