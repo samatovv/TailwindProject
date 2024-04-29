@@ -6,8 +6,9 @@ import DostavkaPage from '../pages/DostavkaPage.jsx'
 import KatalogPage from '../pages/KatalogPage.jsx'
 import ModelPage from '../pages/ModelPage.jsx'
 import OnasPage from '../pages/OnasPage.jsx'
-import ProductPage from '../pages/ProductsPage.jsx'
+import Bedroom from '../Components/Bedroom.jsx/Bedroom.jsx'
 import '../index.css'
+import ProductPage from '../pages/ProductsPage.jsx'
 
 export const router = createBrowserRouter([{
     path: '/',
@@ -16,7 +17,7 @@ export const router = createBrowserRouter([{
     children: [
         {
             path: "/",
-            element: <ProductPage />
+            element: <ProductPage/>
         },
         {
             path: "/dostavka",
@@ -38,6 +39,10 @@ export const router = createBrowserRouter([{
             path: "/pokupatel",
             element: <PokupatelPage />
         },
+        {
+            path:"/bedroom",
+            element:<Bedroom/>
+        }
     ]
 },
     // {

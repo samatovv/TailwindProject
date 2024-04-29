@@ -1,12 +1,16 @@
-import {DefaultPlayer as Video} from 'react-html5video'
+import { DefaultPlayer as Video } from 'react-html5video';
+import 'react-html5video/dist/styles.css';
 
+import { Container } from "../helpers/Container"
+import video from "../../assets/Videos/video.mp4"
 function Banner() {
   return (
-    <Video autoPlay loop
-    >
-        <source src="https://youtu.be/nLQ-9vfEjUI?si=Zs4lB29HmQSYBX10" type="video/webm"/>
-    </Video>
+    <Container>
+      <Video autoPlay loop
+      >
+        <source src={video} type="video/webm" />
+      </Video>
+    </Container>
   );
 }
-
 export default Banner;
