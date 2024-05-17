@@ -22,15 +22,15 @@ function Header() {
             <Container>
                 <div className='mx-auto w-1440px h-152px'>
                     <div className='flex  items-center justify-around'>
-                        <div className=''>
-                            <div className='flex hidden w-[170px]  lg:block xl:block sm:hidden font-inter text-base font-normal leading-[127.47%] tracking-tighter text-right'>
-                                <img src={oclock} className="absolute mt-2" alt="img" />
-                                <div>
+                        <div className='flex flex-col gap-[9px] w-[186px]'>
+                            <div className='hidden gap-2 w-[170px]  lg:block xl:block sm:hidden '>
+                                <img src={oclock} className=" mb-[-24px] mr-[30px] " alt="img" />
+                                <div className='font-inter text-base font-normal leading-[127.47%] tracking-tighter text-right'>
                                     <p>Пн-Пт с 10:00 до 20:00</p>
                                     <p>Сб-Вс с 10:00 до 19:00</p>
                                 </div>
                             </div>
-                            <div className='flex font-inter text-base font-normal leading-[127.47%] tracking-tighter text-right'>
+                            <div className='flex gap-2 font-inter text-base font-normal leading-[127.47%] tracking-tighter text-right'>
                                 <img src={compas} alt="img" />
                                 <a>Наши салоны</a>
                             </div>
@@ -42,15 +42,15 @@ function Header() {
                             </Link>
                         </div>
                         <div className=' xl:block sm: hidden md:block'>
-                            <div className='flex font-inter text-base font-normal leading-[127.47%] tracking-tighter text-right gap-2'>
+                            <div className='flex  w-[247px] justify-between font-inter text-base font-normal leading-[127.47%] tracking-tighter text-right gap-2'>
                                 <p className=''>Отдел продаж:</p>
                                 <img className='w-3 h-3 mt-2' src={phone} alt="img" />
                                 <p>8 (495) 664-54-57<br />
                                     8 (495) 664-54-57</p>
                             </div>
-                            <div className='flex font-inter text-base font-normal leading-[127.47%] tracking-tighter text-right gap-2'>
-                                <p>Звонки по Росии:</p>
-                                <img className='w-3 h-3 align-center justify-center mt-2' src={phone} alt="img" />
+                            <div className='flex justify-between font-inter text-base font-normal leading-[127.47%] tracking-tighter text-right MR-1 gap-2'>
+                                <p>Звонки по Р.Ф:</p>
+                                <img className='w-3 ml-[1px] h-3 align-center justify-center mt-2' src={phone} alt="img" />
                                 <p>8-800-000-00-00<br />
                                     Бесплатно</p>
                             </div>
@@ -114,11 +114,11 @@ function Header() {
 
                     <div className=' w-1440px border border-solid border-gray-300 mt-5 mb-5'></div>
                     <div className='hidden mb-6 md:flex items-center justify-around font-inter text-base font-bold leading-[127.47%] tracking-tighter text-left  list-none'>
-                    <div className="">
-                                <form className="lg:[w-90px] xl:w-[100px]">
-                                    <Options/>
-                                </form>
-                            </div>
+                        <div className="">
+                            <form className="lg:[w-90px] xl:w-[100px]">
+                                <Options />
+                            </form>
+                        </div>
                         <li className='hover:text-gray-500'>
                             <Link to="/">О нас</Link>
                         </li>
@@ -139,7 +139,7 @@ function Header() {
                     <div className='flex lg:hidden md:hidden cursor-pointer w-full justify-between mt-8  bg-blue-700'>
                         <div className="w-1/2">
                             <form className="bg-red-500 text-white ">
-                                <Options/>
+                                <Options />
                             </form>
                         </div>
                         <div className="w-1/2 flex items-center">
