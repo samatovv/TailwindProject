@@ -14,7 +14,7 @@ function info() {
     return (
         <Container>
             <div className="flex flex-wrap mb-[60px]">
-                <div className="w-screen md:w-100% lg:w-1/3    ">
+                <div className="w-screen sm:w-100% lg:w-1/3 ">
                     <img className="w-full h-auto lg:h-[468px] m-auto" src={banner} alt="img" />
                 </div>
                 <div className="ml-[29px] mr-[66px] flex flex-grow flex-col justify-between lg:w-[400px] md:w-[600px]">
