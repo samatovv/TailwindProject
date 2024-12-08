@@ -1,10 +1,18 @@
+import { Container } from "../helpers/Container";
+import BedProduct1 from "./BedProduct1";
+import BedProduct2 from "./BedProduct2";
+import FadeMenu from "./bedMenu";
 
-function Bedroom() {
+export default function Bedroom() {
   return (
-    <div>
-      Bedroom
-    </div>
+    <Container>
+      <div className="bedroom-container flex gap-32">
+        <FadeMenu/>
+        <div>
+          <BedProduct1/>
+          <BedProduct2/>
+        </div>
+      </div>
+    </Container>
   );
 }
-
-export default Bedroom;

@@ -73,9 +73,9 @@ function Footer() {
                 <div className='w-[212px] border border-solid border-1 border-rgb-231-230-230'></div>
                 <div>Контакты</div>
               </div>
-              <div className='flex items-center justify-between'>
-                <img src={Footer1} alt="img" />
-                <img src={Footer2} alt="img" />
+              <div className='flex flex-wrap items-center justify-between'>
+                <img src={Footer1} alt="img" className="object-cover h-auto w-full md:w-auto" />
+                <img src={Footer2} alt="img" className="object-cover h-auto w-full md:w-auto" />
               </div>
             </div>
           </div>

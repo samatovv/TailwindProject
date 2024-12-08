@@ -1,3 +1,4 @@
+import Info from "../Components/Info/ourInfo"
 export default function NotFoundPage() {
-    return <div>3д модель</div>
+    return <div><Info/></div>
 }
